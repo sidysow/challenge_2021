@@ -115,18 +115,16 @@ ax.legend(['bike', 'Forecast'])
 
 print(results)
 # %%
-fig = plt.figure(figsize=(20,8))
-num_points = len(data_ts['VCJ'])
-x = results.predict(start=(1350), end=(1376), dynamic=False)
 
-plt.plot(data_ts['VCJ'][:1377])
-plt.plot(x, color='r')
+
+
+
+
+
+
+
 # %%
-#%%
 
+# %%
 
-
-
-
-
-
+# %%

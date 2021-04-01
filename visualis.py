@@ -206,3 +206,17 @@ interact(hist_explore ,position=['celleneuve','barracasa','Laverune','Lattes 2',
 
 
 # %%
+
+# %%
+
+# %%
+
+# %%
+
+# %%
+
+# %%
+
+# %%
+
+# %%
