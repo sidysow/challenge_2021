@@ -10,7 +10,7 @@ import statsmodels.api as sm
 #%%
 url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQVtdpXMHB4g9h75a0jw8CsrqSuQmP5eMIB2adpKR5hkRggwMwzFy5kB-AIThodhVHNLxlZYm8fuoWj/pub?gid=2105854808&single=true&output=csv "
 path_target = "./Bike_Totems_Montpellier.csv"
-download(url, path_target, replace=True)  
+download(url, path_target, replace=False)  
 
 #%%
 data_dfraw = pd.read_csv("Bike_Totems_Montpellier.csv")
